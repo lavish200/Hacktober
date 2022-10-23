@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="description" content="free notes for 12std science in pdf from for free download and free for all anyone can download the notes and free to use ultimate notes all Answer in one website ">
+
+    <meta name="author" content="noobstudent Aman's notes for students"
+
+    <meta name="keywords" content="free notes for 12std , Aman's notes, Maharashtra 12std notes for free, 12std notes in pdf form , noobstudent , noobstudent notes , noobstudents.tk">
+
+    <title>Free notes</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html,body{
+
+  display: grid;
+
+  height: 100vh;
+
+  place-items: center;
+
+  background: #000;
+
+}
+
+.btn a{
+
+  position: relative;
+
+  color: #f5f5f5;
+
+  height: 70px;
+
+  width: 220px;
+
+  display: block;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  background-image: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+
+}
+
+.btn a:hover{
+
+  animation: rotate 0.4s linear infinite;
+
+}
+
+@keyframes rotate {
+
+  100%{
+
+    filter: hue-rotate(-360deg)
+
+  }
+
+}
+
+.btn a span{
+
+  height: 88%;
+
+  width: 96%;
+
+  background: #111;
+
+  display: block;
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  border-radius: 6px;
+
+  line-height: 62px;
+
+  font-size: 25px;
+
+  transform: translate(-50%, -50%);
+
+}
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="btn">
+
+        <br>
+
+        <br>
+
+        <br>
+
+        <br>
+
+      <a href="maths.html"><span>Maths</span></a>
+
+       <br>
+
+        <a href="it.html"><span>I.T</span></a>
+
+        <br>
+
+         <a href="physics.html"><span>Physics</span></a>
+
+         <br>
+
+          <a href="chemistry.html"><span>Chemistry</span></a>
+
+          <br>
+
+           <a href="biology.html"><span>Biology</span></a>
+
+           <br>
+
+    </div>
+
+</body>
+
+</html>
+
+</a>
+
+           <br>
+
+    </div>
+
+</body>
+
+</html>
+
+>
+
+ml>
+
