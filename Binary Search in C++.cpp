@@ -7,21 +7,21 @@ int main()
 
 {
 
-    int i, arr[10], num, first, last, middle;
+    int i, ar[100], num, first, last, middle;
 
     cout<<"Enter 10 Elements (in ascending order): ";
 
-    for(i=0; i<10; i++)
-
-        cin>>arr[i];
-
+    for(i=0; i<10; i++){
+        cin>>ar[i];
+    }
+    
     cout<<"\nEnter Element to be Search: ";
 
     cin>>num;
 
     first = 0;
 
-    last = 9;
+    last = 99;
 
     middle = (first+last)/2;
 
