@@ -1,0 +1,61 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int A[3][3],B[3][3],C[3][3];
+    int i,j,k;
+    cout<<"Fill Array A"<<endl;
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            cin>>A[i][j];
+        }
+    }
+    cout<<"Fill Array B"<<endl;
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            cin>>B[i][j];
+        }
+    }
+    //Addition of 2 Matrices
+    cout<<"Sum:"<<endl;
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            C[i][j]=A[i][j]+B[i][j];
+            cout<<C[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    //Subtraction of 2 Matrices
+    cout<<"Difference:"<<endl;
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            C[i][j]=A[i][j]-B[i][j];
+            cout<<C[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    //Multiplication of 2 Matrices
+    cout<<"Product:"<<endl;
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            C[i][j]=0;
+            for(k=0;k<3;k++)
+            {
+                C[i][j]+=A[i][k]*B[k][j];
+            }
+            cout<<C[i][j]<<" ";    
+        }
+        cout<<endl;
+    }
+    return 0;
+}
